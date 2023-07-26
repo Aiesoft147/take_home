@@ -69,7 +69,7 @@ pipeline {
         stage('Clone Helm Chart Repository') {
             steps {
                 // Clone the GitHub repository containing the Helm chart
-                sh 'git clone https://github.com/your-username/your-helm-chart-repo.git helm-chart'
+                sh 'git clone https://github.com/Aiesoft147/take_home.git helm_chart'
             }
         }
 
