@@ -108,27 +108,3 @@ resource "aws_eks_addon" "ebs-csi" {
     "terraform" = "true"
   }
 }
-
-
-# export AWS_ACCESS_KEY_ID=AKIA4E2IPFBEMCJFZCFX
-# export AWS_SECRET_ACCESS_KEY=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
-
-# eU5}FGo5
-# https://834986256456.signin.aws.amazon.com/console
-
-# DOCKER_USERNAME=aiesoft
-# DOCKER_PASSWORD=Member147@&$
-
-# DOCKER_AUTH=$(echo -n "$DOCKER_USERNAME:$DOCKER_PASSWORD" | base64)
-
-#kubectl create secret docker-registry my-registry-credentials \
-   # --docker-server=https://hub.docker.com \
-    #--docker-username=aiesoft \
-    #--docker-password=Member147@&$ \
-    #--docker-email=ayeidokoakoh@gmail.com
-
-#kubectl create secret docker-registry my-registry-credentials \
-    #--docker-server=https://index.docker.io/v1/ \
-    #--docker-username="$DOCKER_USERNAME" \
-    #--docker-password="$DOCKER_PASSWORD" \
-    #--docker-email=ayeidokoakoh@gmail.com

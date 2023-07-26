@@ -40,9 +40,3 @@ COPY --from=compile-image /opt/ng/dist/bhis_app /usr/share/nginx/html
 ###docker run --name bhiswebapp -d -p 80:80 bhis/bhis <>
 ###open port 80
 ###ipadddress:80
-
-# export AWS_ACCESS_KEY_ID=AKIA4E2IPFBEMCJFZCFX
-# export AWS_SECRET_ACCESS_KEY=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
-
-# eU5}FGo5
-# https://834986256456.signin.aws.amazon.com/console
