@@ -1,4 +1,3 @@
-
 provider "aws" {
   region = var.region
 }
@@ -108,5 +107,3 @@ resource "aws_eks_addon" "ebs-csi" {
     "terraform" = "true"
   }
 }
-
-#hi
